@@ -1,0 +1,11 @@
+HTTrack3.48-22+htsswf+htsjava launched on Sat, 08 Oct 2016 01:08:43 at http://www.larsonsphotography.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://www.larsonsphotography.com/ -O1 "C:\git\larson" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+
+HTTrack Website Copier/3.48-22 mirror complete in 1 seconds : 2 links scanned, 1 files written (376 bytes overall) [1275 bytes received at 1275 bytes/sec], 2.0 requests per connection
+(No errors, 0 warnings, 0 messages)

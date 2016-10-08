@@ -1,0 +1,3 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+01:08:44	387/387	---M--	200	added ('OK')	text/html	date:Sat,%2008%20Oct%202016%2008:08:43%20GMT	http://www.larsonsphotography.com/robots.txt		(from )
+01:08:44	376/376	---M--	200	added ('OK')	text/html	date:Sat,%2008%20Oct%202016%2008:08:43%20GMT	http://www.larsonsphotography.com/	C:/git/larson/www.larsonsphotography.com/index.html	(from )
