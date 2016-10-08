@@ -1,0 +1,73 @@
+/* Google fonts. We need to break them into several imports, otherwise they won't work in IE 8 */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Droid+Sans:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=PT+Sans:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Josefin+Slab:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Arvo:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Lato:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Vollkorn:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Abril+Fatface:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Ubuntu:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Oswald:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Droid+Serif:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Roboto:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Raleway:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Lobster:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Old+Standard+TT:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Gravitas+One:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Playfair+Display:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Merriweather:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Muli:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Dosis:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Architects+Daughter:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Tangerine:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Cardo:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Stalemate:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Josefin+Slab:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Bevan:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Italiana:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Actor:normal,bold,italic,bolditalic");
+@import url("http://fonts.googleapis.com/css?family=Josefin+Sans:normal,bold,italic,bolditalic");
+
+
+/* Google font icon for the font family list, we just use css with different colors, its faster than an image */
+.google-font-icon {
+  font-weight: bold;
+}
+
+.google-font-icon .g1 {
+  color: '#156aeb';
+}
+
+.google-font-icon .o1 {
+  color: '#d4402a';
+}
+
+.google-font-icon .o2 {
+  color: '#ffb500';
+}
+
+.google-font-icon .g2 {
+  color: '#1a6fef';
+}
+
+.google-font-icon .l {
+  color: '#009553';
+}
+
+.google-font-icon .e {
+  color: '#d8432e';
+}
+
+/* For tiny font list: adds the google icon after a google font name */
+.mce-fontAbrilFatface::after, .mce-fontActor::after, .mce-fontAndaleMono::after, .mce-fontArchitectsDaughter::after, .mce-fontArialBlack::after, .mce-fontArialNarrow::after, .mce-fontArial::after, .mce-fontArvo::after, .mce-fontBevan::after, .mce-fontBookAntiqua::after, .mce-fontBookmanOldStyle::after, .mce-fontCardo::after, .mce-fontCenturyGothic::after, .mce-fontComicSansMS::after, .mce-fontCopperplate::after, .mce-fontCourierNew::after, .mce-fontDosis::after, .mce-fontDroidSans::after, .mce-fontDroidSerif::after, .mce-fontGaramond::after, .mce-fontGeorgia::after, .mce-fontGillSans::after, .mce-fontGravitasOne::after, .mce-fontHelvetica::after, .mce-fontImpact::after, .mce-fontItaliana::after, .mce-fontJosefinSlab::after, .mce-fontJosefinSlab::after, .mce-fontLato::after, .mce-fontLeagueGothic::after, .mce-fontLobster::after, .mce-fontLucidaConsole::after, .mce-fontLucidaSansUnicode::after, .mce-fontMSSansSerif::after, .mce-fontMerriweather::after, .mce-fontMonotypeCorsiva::after, .mce-fontMuli::after, .mce-fontOldStandardTT::after, .mce-fontOpenSans::after, .mce-fontOswald::after, .mce-fontPTSans::after, .mce-fontPalatinoLinotype::after, .mce-fontPlayfairDisplay::after, .mce-fontRaleway::after, .mce-fontRoboto::after, .mce-fontStalemate::after, .mce-fontSymbol::after, .mce-fontTahoma::after, .mce-fontTangerine::after, .mce-fontTerminal::after, .mce-fontTimesNewRoman::after, .mce-fontTrebuchetMS::after, .mce-fontUbuntu::after, .mce-fontVerdana::after, .mce-fontVolkorn::after, .mce-fontWebdings::after, .mce-fontWingdings::after {
+  content: url('../images/googlefonts/Google_30x10.png');
+  width: 30px;
+  height: 12px;
+  padding-left: 5px;
+}
+
+/* Let the browser calculate the width for tiny List-menu boxes (like the Font Family one). It has to be important because it has an inline style. */
+div.mceMenu.mceListBoxMenu.mceNoIcons.defaultSkin {
+  width: auto !important;  
+}
